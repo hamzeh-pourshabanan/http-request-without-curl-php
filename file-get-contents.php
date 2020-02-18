@@ -1,3 +1,4 @@
+<?php
 /*
 * Try to connect to an api for 4 times
 * if connects, echo out success message
