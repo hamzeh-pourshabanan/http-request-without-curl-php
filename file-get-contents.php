@@ -10,7 +10,7 @@ $content = false;
 while((!$content or $limit == 0) AND $limit < 4 ) {
 
     $content = @file_get_contents($url);
-    if($limit < 3 and $content) {
+    if($content) {
         echo 'Congrats. The connection was successful.';
     }
     $limit++;
